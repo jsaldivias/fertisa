@@ -19,6 +19,8 @@ GPIO.setup(R14, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) # P27 INput
 GPIO.setup(R22, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) # P10 INput
 GPIO.setup(R24, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) # P9 INput
 
+
+
 # MQTT
 def on_connect(client, userdata, flags, rc):
     m="Connected flags"+str(flags)+"result code "\
